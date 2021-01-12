@@ -8,7 +8,7 @@ Material-UIはバンドルサイズについてとても気をつけている。
 
 ## いつ、どのように、tree-shakingをするか？
 
-Material-UIのtree-shakingは、モダンフレームワークにおいて設定なしに動作します。 Material-UIはすべてのAPIを上位の`material-ui`インポートで公開しています。 If you're using ES6 modules and a bundler that supports tree-shaking ([`webpack` >= 2.x](https://webpack.js.org/guides/tree-shaking/), [`parcel` with a flag](https://en.parceljs.org/cli.html#enable-experimental-scope-hoisting/tree-shaking-support)) you can safely use named imports and still get an optimised bundle size automatically:
+Material-UIのtree-shakingは、モダンフレームワークにおいて設定なしに動作します。 Material-UIはすべてのAPIを上位の`material-ui`インポートで公開しています。 If you're using ES6 modules and a bundler that supports tree-shaking ([`webpack` >= 2.x](https://webpack.js.org/guides/tree-shaking/), [`parcel` with a flag](https://en.parceljs.org/cli.html#enable-experimental-scope-hoisting/tree-shaking-support)) you can safely use named imports and still get an optimized bundle size automatically:
 
 ```js
 import { Button, TextField } from '@material-ui/core';
