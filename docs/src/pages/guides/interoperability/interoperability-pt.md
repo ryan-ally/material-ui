@@ -434,9 +434,9 @@ A fazer: preencha esta seção após o portal ser implementado com o novo motor 
 **CssModulesSlider.js**
 
 ```jsx
-import React from 'react';
+import * as React from 'react';
 import Slider from '@material-ui/core/Slider';
-// webpack, parcel ou qualquer que irá injetar o CSS na página
+// webpack, parcel or else will inject the CSS into the page
 import styles from './CssModulesSlider.module.css';
 
 export default function CssModulesSlider() {
@@ -522,8 +522,8 @@ Os exemplos a seguir substituem o estilo de `thumb` do controle slider, além do
 **CssModulesSliderDeep1.js**
 
 ```jsx
-import React from 'react';
-// webpack, parcel ou qualquer que irá injetar o CSS na página
+import * as React from 'react';
+// webpack, parcel or else will inject the CSS into the page
 import styles from './CssModulesSliderDeep1.module.css';
 import Slider from '@material-ui/core/Slider';
 
@@ -558,8 +558,8 @@ A demonstração acima depende dos [valores padrão de `className`](/styles/adva
 **CssModulesSliderDeep2.js**
 
 ```jsx
-import React from 'react';
-// webpack, parcel ou qualquer que irá injetar o CSS na página
+import * as React from 'react';
+// webpack, parcel or else will inject the CSS into the page
 import styles from './CssModulesSliderDeep2.module.css';
 import Slider from '@material-ui/core/Slider';
 
