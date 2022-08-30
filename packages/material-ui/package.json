@@ -64,7 +64,7 @@
     "@material-ui/styled-engine": "5.0.0-alpha.22",
     "@material-ui/styles": "5.0.0-alpha.22",
     "@material-ui/system": "5.0.0-alpha.22",
-    "@material-ui/types": "5.1.4",
+    "@material-ui/types": "5.1.8",
     "@material-ui/unstyled": "5.0.0-alpha.22",
     "@material-ui/utils": "5.0.0-alpha.22",
     "@popperjs/core": "^2.4.4",
