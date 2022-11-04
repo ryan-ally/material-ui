@@ -91,7 +91,7 @@
     "postcss": "^8.0.6",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
-    "raw-loader": "^1.0.0",
+    "raw-loader": "^4.0.1",
     "react": "^16.14.0",
     "react-docgen": "^5.0.0-beta.1",
     "react-dom": "^16.14.0",
@@ -117,7 +117,7 @@
     "stylis": "^4.0.3",
     "stylis-plugin-rtl": "^2.0.1",
     "webfontloader": "^1.6.28",
-    "webpack": "^4.41.0",
+    "webpack": "^5.0.0",
     "webpack-bundle-analyzer": "^4.1.0"
   },
   "devDependencies": {
