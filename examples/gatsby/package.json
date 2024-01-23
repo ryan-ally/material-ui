@@ -7,7 +7,7 @@
     "@emotion/styled": "latest",
     "@material-ui/core": "next",
     "@material-ui/styles": "next",
-    "gatsby": "latest",
+    "gatsby": "5.13.2",
     "gatsby-plugin-emotion": "latest",
     "gatsby-plugin-material-ui": "latest",
     "gatsby-plugin-react-helmet": "latest",
